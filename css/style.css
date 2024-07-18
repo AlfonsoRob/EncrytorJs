@@ -1,0 +1,44 @@
+body {
+    background: fixed;
+    background-image: url("/img/lock.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content{
+    width: 70%;
+    margin: 5% auto;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.textArea{
+    height: 200px;
+}
+
+.button{
+    width: 90%;
+}
+
+.containers{
+    padding: 0 1rem;
+}
+
+@media (max-width: 1024px) {
+    .content{
+        width: 90%;
+    }
+}
+
+@media (max-width: 520px) {
+    .contentModal {
+        display: flex;
+        flex-direction: column;
+    }
+}
